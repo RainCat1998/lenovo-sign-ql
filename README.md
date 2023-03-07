@@ -1,5 +1,6 @@
-# lenovo-sign
+# lenovo-sign-ql
 联想智选签到
+适配青龙面板
 
 **使用须知：**  
 **1. 使用的Python版本必须大于等于Python3.8**  
