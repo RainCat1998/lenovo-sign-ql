@@ -1,5 +1,19 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
+
+"""
+File: lenovo_sign.py(联想智选签到)
+Author: marigold233
+Date: 2023/02/25 23:00
+cron: 0 12 * * * lenovo_sign.py
+new Env('联想智选签到');
+
+青龙面板使用
+安装脚本依赖requests toml
+复制config.toml到脚本管理对应目录下
+在config.toml里面填写账号和推送
+"""
+
 import base64
 import json
 import logging
